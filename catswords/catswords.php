@@ -12,10 +12,10 @@ License: GPL3
 function cwds_get_config($key) {
 	$configs = array(
 		"interval" => 180, // seconds,
-		"email" => "adrian@bmcnet.kr",
-		"password" => "joohyeon3438",
+		"email" => "wordpress@catswords.local",
+		"password" => "1234",
 		"host" => "2s.re.kr",
-		"network_id" => "bmcnet",
+		"network_id" => "wordpress",
 		"wp_user_id" => 1,
 		"dir_path" => plugin_dir_path(__FILE__),
 		"timezone" => "Asia/Seoul",
