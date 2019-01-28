@@ -90,17 +90,18 @@ function cwds_parse_datetime($datetime, $timezone) {
 
 function cwds_convert_timezone($time, $timezone) {
 	$result = $time;
-	
+/*
 	if($timezone != cwds_get_config("timezone")) {
 		$dt = new DateTime(sprintf("@%s", $time), new DateTimeZone($timezone));
 		$dt->setTimeZone(new DateTimeZone(cwds_get_config("timezone")));
 		$result = $dt->getTimestamp();
 	}
-/*
+*/
+
 	if($timezone == "UTC" && cwds_get_config("timezone") == "Asia/Seoul") {
 		$result = $time + 32400;
 	}
-*/
+
 	return $result;
 }
 
