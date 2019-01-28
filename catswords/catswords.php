@@ -149,7 +149,6 @@ function cwds_check_time($datetime, $timezone) {
 		$each_time = cwds_parse_datetime($datetime, $timezone);
 
 		if($last_time < $each_time) {
-			echo "start";
 			$result = true;
 		}
 
