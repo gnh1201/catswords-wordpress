@@ -2,7 +2,11 @@
 Catswords Community: Wordpress plugin development (캐츠워즈 커뮤니티 - 워드프레스 연동 모듈)
 
 # tutorial
-1. Install this wordpress plugin to directory /wp-content/plugins/catswords-wordpress/
+1. Install this wordpress plugin to directory (아래의 디렉토리에 플러그인 설치)
+
+```
+[wordpress installed directory]/wp-content/plugins/catswords-wordpress/*
+```
 
 2. Test in command line
 ```
