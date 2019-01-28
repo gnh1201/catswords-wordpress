@@ -75,7 +75,7 @@ function cwds_wp_insert_post($data, $created_on="") {
 	} elseif(is_string($data)) {
 		$post_context['post_status'] = "publish";
 		$post_context['post_title'] = cwds_get_current_datetime();
-		$post_context['post_content'] = $data . " (created on: " . $created_on . ")";
+		$post_context['post_content'] = $data;
 	}
 
 	$result = wp_insert_post($post_context);
