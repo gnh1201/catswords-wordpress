@@ -13,7 +13,7 @@ function cwds_get_config($key) {
 	$configs = array(
 		"interval" => 180, // seconds,
 		"email" => "git@catswords.com",
-		"password" => "1234",
+		"password" => "dAyk5bCuLdJQ9ip3",
 		"host" => "2s.re.kr",
 		"network_id" => "wordpress",
 		"wp_user_id" => 1,
