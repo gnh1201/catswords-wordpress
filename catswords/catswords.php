@@ -12,7 +12,7 @@ License: GPL3
 function cwds_get_config($key) {
 	$configs = array(
 		"interval" => 180, // seconds,
-		"email" => "wordpress@catswords.local",
+		"email" => "git@catswords.com",
 		"password" => "1234",
 		"host" => "2s.re.kr",
 		"network_id" => "wordpress",
